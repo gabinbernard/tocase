@@ -1,0 +1,26 @@
+{
+  "name": "string-switch-case",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Convert a string to any common case (camel, pascal, snake, kebab, capital, space, dot) with upper/lowercase variants.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "concurrently \"tsc -w\" \"nodemon main.ts\"",
+    "test": "node --loader tsx --test tests/index.test.ts"
+  },
+  "keywords": [
+    "Uppercase",
+    "Lowercase",
+    "Case",
+    "String",
+    "Parsing"
+  ],
+  "author": "Jean Fougasse",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  }
+}
