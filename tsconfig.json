@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "resolveJsonModule": true
+  },
+  "files": [
+    "./src/index.ts",
+  ],
+}
