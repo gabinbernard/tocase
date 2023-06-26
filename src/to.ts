@@ -65,6 +65,56 @@ function toUppercaseSnake(strArray: string[]): string {
     return toSnake(strArray).toUpperCase();
 }
 
+/**
+ * A function that joins an array of strings into a capital case string.
+ *
+ * @param strArray
+ * @returns {string}
+ */
+function toCapital(strArray: string[]): string {
+    return strArray.map(part => `${part[0].toUpperCase()}${part.slice(1)}`).join(' ');
+}
+
+/**
+ * A function that joins an array of strings into a space case string.
+ *
+ * @param strArray
+ * @returns {string}
+ */
+function toSpace(strArray: string[]): string {
+    return strArray.join(" ");
+}
+
+/**
+ * A function that joins an array of strings into an uppercase space case string.
+ *
+ * @param strArray
+ * @returns {string}
+ */
+function toUppercaseSpace(strArray: string[]): string {
+    return toSpace(strArray).toUpperCase();
+}
+
+/**
+ * A function that joins an array of strings into a dot case string.
+ *
+ * @param strArray
+ * @returns {string}
+ */
+function toDot(strArray: string[]): string {
+    return strArray.join(".");
+}
+
+/**
+ * A function that joins an array of strings into an uppercase dot case string.
+ *
+ * @param strArray
+ * @returns {string}
+ */
+function toUppercaseDot(strArray: string[]): string {
+    return toDot(strArray).toUpperCase();
+}
+
 export {
     toCamel,
     toPascal,
@@ -72,4 +122,9 @@ export {
     toUppercaseSnake,
     toKebab,
     toUppercaseKebab,
+    toCapital,
+    toSpace,
+    toUppercaseSpace,
+    toDot,
+    toUppercaseDot
 };

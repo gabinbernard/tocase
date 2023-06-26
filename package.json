@@ -2,7 +2,7 @@
   "name": "string-switch-case",
   "type": "module",
   "version": "1.0.0",
-  "description": "Convert a string to any common case (camel, pascal, snake, kebab).",
+  "description": "Convert a string to any common case (camel, pascal, snake, kebab, capital, space, dot) with upper/lowercase variants.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",

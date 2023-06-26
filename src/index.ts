@@ -6,6 +6,11 @@ import {
     toUppercaseSnake,
     toKebab,
     toUppercaseKebab,
+    toCapital,
+    toSpace,
+    toUppercaseSpace,
+    toDot,
+    toUppercaseDot,
 } from "./to.js";
 
 /**
@@ -22,7 +27,12 @@ type ToCase =
     | "kebab"
     | "snake"
     | "uppercaseSnake"
-    | "uppercaseKebab";
+    | "uppercaseKebab"
+    | "capital"
+    | "space"
+    | "uppercaseSpace"
+    | "dot"
+    | "uppercaseDot";
 
 /**
  * An object containing parse functions to convert a string to a spliited array of strings.
@@ -44,6 +54,11 @@ const to: { [key in ToCase]: (str: string[]) => string } = {
     kebab: toKebab,
     uppercaseSnake: toUppercaseSnake,
     uppercaseKebab: toUppercaseKebab,
+    capital: toCapital,
+    space: toSpace,
+    uppercaseSpace: toUppercaseSpace,
+    dot: toDot,
+    uppercaseDot: toUppercaseDot,
 };
 
 /**
@@ -88,5 +103,12 @@ export {
     toCamel,
     toPascal,
     toSnake,
+    toUppercaseSnake,
     toKebab,
+    toUppercaseKebab,
+    toCapital,
+    toSpace,
+    toUppercaseSpace,
+    toDot,
+    toUppercaseDot
 };
