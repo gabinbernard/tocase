@@ -5,7 +5,7 @@
   "modules": "esm/index.js",
   "repository": "git://github.com/gabinbernard/tocase",
   "homepage": "https: //github.com/gabinbernard/tocase#readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert a string to any common case (camel, pascal, snake, kebab, capital, space, dot) with upper/lowercase variants.",
   "scripts": {
     "build": "tsc",
