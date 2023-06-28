@@ -1,8 +1,8 @@
 {
   "name": "@fougassum/tocase",
   "type": "module",
-  "main": "lib/",
-  "modules": "esm/",
+  "main": "lib/index.js",
+  "modules": "esm/index.js",
   "repository": "git://github.com/gabinbernard/tocase",
   "homepage": "https: //github.com/gabinbernard/tocase#readme",
   "version": "1.0.2",
