@@ -21,8 +21,8 @@ bun install @fougassum/tocase
 
 ## Basic example
 
-```
-install toCase from '@fougassum/tocase'
+```js
+import toCase from '@fougassum/tocase'
 
 const snakeStr = 'to_case_test_string';
 
@@ -60,7 +60,7 @@ To those cases :
 
 You can also import all utils functions to convert a string to a splitted array of strings, and the ones to convert back to a string.
 
-```
+```js
 import { fromCamel, toSnake } from '@fougassum/tocase';
 
 const str = 'welcomeToFrance';
