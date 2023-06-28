@@ -1,7 +1,8 @@
 {
-  "name": "string-switch-case",
+  "name": "@fougassum/tocase",
   "type": "module",
-  "version": "1.0.0",
+  "homepage": "https: //github.com/gabinbernard/tocase#readme",
+  "version": "1.0.1",
   "description": "Convert a string to any common case (camel, pascal, snake, kebab, capital, space, dot) with upper/lowercase variants.",
   "main": "./dist/index.js",
   "scripts": {
